@@ -1,14 +1,15 @@
 {
-  
+  "name": "bootstrap-reaction-time-analysis",
+  "version": "1.0.0",
+  "description": "Processes reaction time data with bootstrap resampling and generates statistical summaries.",
   "type": "module",
-  
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
   "dependencies": {
-  
-    
-  "papaparse": "^5.5.2",
-  
-    
-  "xlsx": "^0.18.5"
-  
-  }
+    "papaparse": "^5.5.2"
+  },
+  "author": "Özgür Vurgun"
 }
