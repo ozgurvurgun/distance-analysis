@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "Processes reaction time data with bootstrap resampling and generates statistical summaries.",
   "type": "module",
-  "main": "main.js",
+  "main": "bin/run.js",
   "scripts": {
-    "start": "node main.js",
+    "start": "node bin/run.js",
     "test": "echo \"No tests specified\" && exit 0"
   },
   "dependencies": {

@@ -5,7 +5,7 @@ export function readDataDir(dirPath) {
   try {
     return readdirSync(dirPath);
   } catch (err) {
-    console.error("Klasör okunurken hata oluştu:", err);
+    console.error("An error occurred while reading the folder:", err);
     return [];
   }
 }
@@ -14,7 +14,7 @@ export function saveToCSV(filename, jsonData) {
   const flatData = Array.isArray(jsonData) && jsonData.some(Array.isArray) ? jsonData.flat() : jsonData;
   const csv = Papa.unparse(flatData);
   writeFileSync(filename, csv, "utf8");
-  console.log(`✅ CSV kaydedildi: ${filename}`);
+  console.log(`✅ CSV saved: ${filename}`);
 }
 
 export function dataSelectionFilter(data, criteria) {
@@ -22,20 +22,3 @@ export function dataSelectionFilter(data, criteria) {
     Object.keys(criteria).every((key) => item[key] === criteria[key])
   );
 }
-
-/**
- * Bir nesnenin her öğesine belirli bir key-value ekler.
- * @param {Object} data - Güncellenecek nesne
- * @param {string} key - Eklenecek anahtar
- * @param {any} value - Eklenecek değer
- * @returns {Object} - Güncellenmiş nesne
- */
-export function addKeyValueToObject(data, key, value) {
-  return Object.fromEntries(
-    Object.entries(data).map(([k, v]) => [
-      k,
-      { ...v, [key]: value }
-    ])
-  );
-}
-

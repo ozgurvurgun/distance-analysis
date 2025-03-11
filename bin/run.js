@@ -3,7 +3,7 @@ import { ReactionTimeProcessor } from "../src/ReactionTimeProcessor.js";
 import { Bootstrapper } from "../src/Bootstrapper.js";
 import { writeFileSync } from "fs";
 
-function main(dataFilesDirectory, fileRecordName) {
+function run(dataFilesDirectory, fileRecordName) {
   const participantDataFiles = readDataDir(dataFilesDirectory);
   const finalResults = [];
 
@@ -15,7 +15,7 @@ function main(dataFilesDirectory, fileRecordName) {
     const processor = new ReactionTimeProcessor(filePath);
     processor.processReactionTimes();
     const reactionTimes = processor.getReactionTimes();
-    const bootstrapper = new Bootstrapper(reactionTimes, 100);
+    const bootstrapper = new Bootstrapper(reactionTimes, 10000);
     bootstrapper.runBootstrap();
     const results = bootstrapper.getResults();
     const participantJSON = { partNo };
@@ -44,5 +44,5 @@ function main(dataFilesDirectory, fileRecordName) {
   console.log("✅ Process completed");
 }
 
-main("participant_data/large/", "large_results");
-main("participant_data/small/", "small_results");
+run("participant_data/large/", "large_results");
+run("participant_data/small/", "small_results");
