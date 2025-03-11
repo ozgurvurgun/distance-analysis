@@ -1,0 +1,14 @@
+{
+  
+  "type": "module",
+  
+  "dependencies": {
+  
+    
+  "papaparse": "^5.5.2",
+  
+    
+  "xlsx": "^0.18.5"
+  
+  }
+}
