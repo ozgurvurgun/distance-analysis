@@ -23,12 +23,14 @@ export class Bootstrapper {
             bootstrappedSampleCongruent.push({
               distance,
               pair: randomChoice.pair.split(" && ")[0],
+              congruent_RT: randomChoice.congruent_RT,
               value: randomChoice.congruent_RT_AVERAGE,
             });
   
             bootstrappedSampleIncongruent.push({
               distance,
               pair: randomChoice.pair.split(" && ")[1],
+              incongruent_RT: randomChoice.incongruent_RT,
               value: randomChoice.incongruent_RT_AVERAGE,
             });
           }

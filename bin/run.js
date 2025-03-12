@@ -2,47 +2,68 @@ import { readDataDir, saveToCSV, dataSelectionFilter } from "../src/utils.js";
 import { ReactionTimeProcessor } from "../src/ReactionTimeProcessor.js";
 import { Bootstrapper } from "../src/Bootstrapper.js";
 import { writeFileSync } from "fs";
+import path from "path";
 
-function run(dataFilesDirectory, fileRecordName) {
+function processFiles(dataFilesDirectory, fileRecordName, bootstrapIterations = 10000) {
   const participantDataFiles = readDataDir(dataFilesDirectory);
   const finalResults = [];
 
   for (let file of participantDataFiles) {
-    const filePath = `${dataFilesDirectory}${file}`;
-    const partNo = file.replace(".csv", ""); // Partipant Number
-    console.log(`📂 Processing: ${filePath}`);
-
-    const processor = new ReactionTimeProcessor(filePath);
-    processor.processReactionTimes();
-    const reactionTimes = processor.getReactionTimes();
-    const bootstrapper = new Bootstrapper(reactionTimes, 10000);
-    bootstrapper.runBootstrap();
-    const results = bootstrapper.getResults();
-    const participantJSON = { partNo };
-
-    const combinedResults = [...results.congruent, ...results.incongruent];   
-    saveToCSV(`analysis_result/detail/${partNo}_detail.csv`, combinedResults); 
-
-    for (let distance = 1; distance <= 8; distance++) {
-      participantJSON[`comp_${distance}`] = processor.calculateAverage(
-        dataSelectionFilter(results.congruent.flat(), { distance }).map(
-          (item) => item.value
-        )
-      );
-      participantJSON[`incomp_${distance}`] = processor.calculateAverage(
-        dataSelectionFilter(results.incongruent.flat(), { distance }).map(
-          (item) => item.value
-        )
-      );
+    try {
+      const result = processFile(dataFilesDirectory, file, bootstrapIterations);
+      finalResults.push(result);
+    } catch (error) {
+      console.error(`❌ Error processing file ${file}:`, error);
     }
-
-    finalResults.push(participantJSON);
   }
 
-  writeFileSync(`analysis_result/${fileRecordName}.json`, JSON.stringify(finalResults, null, 2),"utf8");
-  saveToCSV(`analysis_result/${fileRecordName}.csv`, finalResults);
-  console.log("✅ Process completed");
+  saveResults(finalResults, fileRecordName);
 }
 
-run("participant_data/large/", "large_results");
-run("participant_data/small/", "small_results");
+function processFile(dataFilesDirectory, file, bootstrapIterations) {
+  const filePath = path.join(dataFilesDirectory, file);
+  const partNo = path.basename(file, ".csv");
+  console.log(`📂 Processing: ${filePath}`);
+
+  const processor = new ReactionTimeProcessor(filePath);
+  processor.processReactionTimes();
+  const reactionTimes = processor.getReactionTimes();
+
+  const bootstrapper = new Bootstrapper(reactionTimes, bootstrapIterations);
+  bootstrapper.runBootstrap();
+  const results = bootstrapper.getResults();
+
+  saveBootstrapResults(partNo, results);
+  return extractParticipantData(partNo, processor, results);
+}
+
+function saveBootstrapResults(partNo, results) {
+  saveToCSV(path.join("analysis_result", "bootstrap_detail", "congruent", `${partNo}_congruent_detail.csv`), results.congruent);
+  saveToCSV(path.join("analysis_result", "bootstrap_detail", "incongruent", `${partNo}_incongruent_detail.csv`), results.incongruent);
+}
+
+function extractParticipantData(partNo, processor, results) {
+  const participantJSON = { partNo };
+  for (let distance = 1; distance <= 8; distance++) {
+    participantJSON[`comp_${distance}`] = processor.calculateAverage(
+      dataSelectionFilter(results.congruent.flat(), { distance }).map((item) => item.value)
+    );
+    participantJSON[`incomp_${distance}`] = processor.calculateAverage(
+      dataSelectionFilter(results.incongruent.flat(), { distance }).map((item) => item.value)
+    );
+  }
+  return participantJSON;
+}
+
+function saveResults(finalResults, fileRecordName) {
+  const jsonPath = path.join("analysis_result", `${fileRecordName}.json`);
+  const csvPath = path.join("analysis_result", `${fileRecordName}.csv`);
+
+  writeFileSync(jsonPath, JSON.stringify(finalResults, null, 2), "utf8");
+  saveToCSV(csvPath, finalResults);
+  console.log(`✅ Process completed: Results saved to ${jsonPath} and ${csvPath}`);
+}
+
+// Usage
+processFiles("participant_data/large/", "large_results");
+processFiles("participant_data/small/", "small_results");
