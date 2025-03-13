@@ -1,68 +1,81 @@
-# Bootstrap Reaction Time Analysis
+### **Bootstrap Reaction Time Analysis**  
 
-## Overview
-This project processes reaction time data from experimental participants, applies bootstrap resampling, and stores the results in CSV and JSON files for further analysis.
+## **Overview**  
+This project processes reaction time data from experimental participants, applies bootstrap resampling, and organizes the results in a structured format for further analysis.  
 
-## Components
+## **Pipeline**  
+1. Reads participant data files.  
+2. Processes reaction times.  
+3. Runs bootstrap resampling.  
+4. Saves detailed and summarized results in structured directories.  
 
-### 1. **Bootstrapper**
-- Runs bootstrap resampling on reaction time data.
-- Selects random elements per distance to generate new datasets.
-- Stores results separately for congruent and incongruent conditions.
-
-### 2. **ReactionTimeProcessor**
-- Loads and parses reaction time data from CSV files.
-- Computes average reaction times for different distance pairs.
-- Organizes data into congruent and incongruent conditions.
-
-### 3. **Utility Functions**
-- Reads directory contents.
-- Saves processed data as CSV.
-- Filters data based on specific criteria.
-- Adds key-value pairs to objects.
-
-### 4. **Main Execution (Pipeline)**
-- Reads participant data files.
-- Processes reaction times.
-- Runs bootstrap resampling.
-- Saves detailed and summarized results as CSV and JSON files.
-
-## File Structure
+## **File Structure**  
 ```
-project_root/
-│── src/
-│   ├── Bootstrapper.js
-│   ├── ReactionTimeProcessor.js
-│   ├── utils.js
+DISTANCE-ANALYSIS/
+│── analysis_result/
+│   ├── bootstrap_detail/
+│   │   ├── congruent/
+│   │   ├── incongruent/
+│   ├── by_size/
+│   ├── compatibility/
+│── bin/
+│   ├── run.js
 │── participant_data/
 │   ├── large/
 │   ├── small/
-│── analysis_result/
-│   ├── detail/
-│   ├── large_results.csv
-│   ├── small_results.csv
-│── main.js
-```
+│── src/
+│   ├── processors/
+│   │   ├── Bootstrapper.js
+│   │   ├── ReactionTimeProcessor.js
+│   ├── utils/
+│   │   ├── utils.js
+```  
 
-## How to Run
-1. Place participant CSV files inside `participant_data/large/` or `participant_data/small/`.
-2. Execute the main script:
+## **Components**  
+
+### 1. **Bootstrapper (`Bootstrapper.js`)**  
+- Runs bootstrap resampling on reaction time data.  
+- Selects random elements per distance to generate new datasets.  
+- Stores results separately for congruent and incongruent conditions in `analysis_result/bootstrap_detail/`.  
+
+### 2. **Reaction Time Processor (`ReactionTimeProcessor.js`)**  
+- Loads and parses reaction time data from CSV files.  
+- Computes average reaction times for different distance pairs.  
+- Organizes data into congruent and incongruent conditions.  
+
+### 3. **Utility Functions (`utils.js`)**  
+- Reads directory contents.  
+- Saves processed data as CSV.  
+- Filters data based on specific criteria.  
+- Computes averages for different response categories.  
+
+### 4. **Main Execution (`run.js`)**  
+- Reads participant data files from `participant_data/`.  
+- Processes reaction times and applies bootstrap resampling.  
+- Saves results in multiple structured directories:  
+  - **`bootstrap_detail/`** → Stores congruent and incongruent bootstrap results.  
+  - **`by_size/`** → Stores average reaction times categorized by size (small/large pairs).  
+  - **`compatibility/`** → Stores summarized compatibility analysis results.  
+
+## **How to Run**  
+1. Place participant CSV files inside `participant_data/large/` or `participant_data/small/`.  
+2. Execute the main script:  
    ```sh
-   node main.js
-   ```
-3. Processed results will be saved inside the `analysis_result/` directory.
+   node bin/run.js
+   ```  
+3. Processed results will be saved inside `analysis_result/`.  
 
-## Output
-- **Detailed Results**: Individual bootstrap samples per participant (`analysis_result/detail/`)
-- **Summarized Results**: Aggregated statistics (`analysis_result/large_results.csv`, `analysis_result/small_results.csv`)
+## **Output Structure**  
+- **Detailed Bootstrap Results:** `analysis_result/bootstrap_detail/`  
+- **Size-Based Averages:** `analysis_result/by_size/`  
+- **Compatibility Analysis:** `analysis_result/compatibility/`  
 
-## Dependencies
-- Node.js
-- `fs` (File system operations)
-- `papaparse` (CSV parsing)
+## **Dependencies**  
+- Node.js  
+- `fs` (File system operations)  
+- `papaparse` (CSV parsing)  
 
-## Notes
-- Ensure CSV files have proper headers (`pairs`, `RT`).
-- Bootstrap iterations can be adjusted in `Bootstrapper.js` (default = 5000).
-- Adjust paths if running in a different environment.
-
+## **Notes**  
+- Ensure CSV files have proper headers (`pairs`, `RT`, `size`, `Response`).  
+- Bootstrap iterations can be adjusted in `Bootstrapper.js` (default = 5000).  
+- Adjust paths if running in a different environment.  
