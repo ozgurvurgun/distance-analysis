@@ -1,0 +1,361 @@
+PartName,Event,Response,Key,Correct_R,Error_Code,RT,congruency,distance,pairs,size
+95_small,"exp (40, 5-9.JPG)",left,b,left,C,1376,congruent,4,5_9,
+95_small,"exp (58, 8-2.JPG)",right,n,right,C,1012,incongruent,6,8_2,
+95_small,"exp (47, 6-8.JPG)",left,b,left,C,762,congruent,2,6_8,large pairs
+95_small,"exp (61, 8-5.JPG)",right,n,right,C,1114,incongruent,3,8_5,
+95_small,"exp (32, 4-9.JPG)",left,b,left,C,434,congruent,5,4_9,
+95_small,"exp (51, 7-3.JPG)",right,n,right,C,488,incongruent,4,7_3,
+95_small,"exp (33, 5-1.JPG)",right,n,right,C,924,incongruent,4,5_1,
+95_small,"exp (60, 8-4.JPG)",right,n,right,C,759,incongruent,4,8_4,
+95_small,"exp (28, 4-5.JPG)",left,b,left,C,492,congruent,1,4_5,
+95_small,"exp (42, 6-2.JPG)",right,n,right,C,719,incongruent,4,6_2,
+95_small,"exp (14, 2-7.JPG)",left,b,left,C,442,congruent,5,2_7,
+95_small,"exp (48, 6-9.JPG)",left,b,left,C,932,congruent,3,6_9,large pairs
+95_small,"exp (67, 9-3.JPG)",right,n,right,C,506,incongruent,6,9_3,
+95_small,"exp (52, 7-4.JPG)",right,n,right,C,576,incongruent,3,7_4,
+95_small,"exp (66, 9-2.JPG)",right,n,right,C,847,incongruent,7,9_2,
+95_small,"exp (1, 1-2.JPG)",left,b,left,C,817,congruent,1,1_2,small pairs
+95_small,"exp (19, 3-4.JPG)",left,b,left,C,848,congruent,1,3_4,small pairs
+95_small,"exp (11, 2-4.JPG)",left,b,left,C,975,congruent,2,2_4,small pairs
+95_small,"exp (35, 5-3.JPG)",right,n,right,C,806,incongruent,2,5_3,
+95_small,"exp (2, 1-3.JPG)",left,b,left,C,618,congruent,2,1_3,small pairs
+95_small,"exp (7, 1-8.JPG)",left,b,left,C,506,congruent,7,1_8,
+95_small,"exp (53, 7-5.JPG)",right,n,right,C,554,incongruent,2,7_5,
+95_small,"exp (59, 8-3.JPG)",right,n,right,C,636,incongruent,5,8_3,
+95_small,"exp (70, 9-6.JPG)",right,n,right,C,794,incongruent,3,9_6,large pairs
+95_small,"exp (21, 3-6.JPG)",left,b,left,C,970,congruent,3,3_6,
+95_small,"exp (30, 4-7.JPG)",left,b,left,C,1002,congruent,3,4_7,
+95_small,"exp (4, 1-5.JPG)",left,b,left,C,944,congruent,4,1_5,
+95_small,"exp (31, 4-8.JPG)",left,b,left,C,1042,congruent,4,4_8,
+95_small,"exp (44, 6-4.JPG)",right,n,right,C,1235,incongruent,2,6_4,
+95_small,"exp (54, 7-6.JPG)",right,n,right,C,833,incongruent,1,7_6,large pairs
+95_small,"exp (64, 8-9.JPG)",left,b,left,C,1266,congruent,1,8_9,large pairs
+95_small,"exp (3, 1-4.JPG)",left,b,left,C,596,congruent,3,1_4,small pairs
+95_small,"exp (39, 5-8.JPG)",left,b,left,C,646,congruent,3,5_8,
+95_small,"exp (29, 4-6.JPG)",left,b,left,C,518,congruent,2,4_6,
+95_small,"exp (63, 8-7.JPG)",right,n,right,C,872,incongruent,1,8_7,large pairs
+95_small,"exp (34, 5-2.JPG)",right,n,right,C,750,incongruent,3,5_2,
+95_small,"exp (49, 7-1.JPG)",right,n,right,C,512,incongruent,6,7_1,
+95_small,"exp (50, 7-2.JPG)",right,n,right,C,744,incongruent,5,7_2,
+95_small,"exp (12, 2-5.JPG)",left,b,left,C,718,congruent,3,2_5,
+95_small,"exp (56, 7-9.JPG)",left,b,left,C,877,congruent,2,7_9,large pairs
+95_small,"exp (72, 9-8.JPG)",right,n,right,C,872,incongruent,1,9_8,large pairs
+95_small,"exp (46, 6-7.JPG)",left,b,left,C,572,congruent,1,6_7,large pairs
+95_small,"exp (6, 1-7.JPG)",left,b,left,C,556,congruent,6,1_7,
+95_small,"exp (65, 9-1.JPG)",right,n,right,C,498,incongruent,8,9_1,
+95_small,"exp (27, 4-3.JPG)",right,n,right,C,585,incongruent,1,4_3,small pairs
+95_small,"exp (16, 2-9.JPG)",left,b,left,C,520,congruent,7,2_9,
+95_small,"exp (41, 6-1.JPG)",right,n,right,C,434,incongruent,5,6_1,
+95_small,"exp (17, 3-1.JPG)",right,n,right,C,863,incongruent,2,3_1,small pairs
+95_small,"exp (8, 1-9.JPG)",left,b,left,C,474,congruent,8,1_9,
+95_small,"exp (45, 6-5.JPG)",right,n,right,C,820,incongruent,1,6_5,
+95_small,"exp (20, 3-5.JPG)",left,b,left,C,473,congruent,2,3_5,
+95_small,"exp (69, 9-5.JPG)",right,n,right,C,632,incongruent,4,9_5,
+95_small,"exp (18, 3-2.JPG)",right,n,right,C,650,incongruent,1,3_2,small pairs
+95_small,"exp (71, 9-7.JPG)",right,n,right,C,649,incongruent,2,9_7,large pairs
+95_small,"exp (55, 7-8.JPG)",left,b,left,C,970,congruent,1,7_8,large pairs
+95_small,"exp (15, 2-8.JPG)",left,b,left,C,994,congruent,6,2_8,
+95_small,"exp (5, 1-6.JPG)",left,b,left,C,536,congruent,5,1_6,
+95_small,"exp (37, 5-6.JPG)",left,b,left,C,755,congruent,1,5_6,
+95_small,"exp (57, 8-1.JPG)",right,n,right,C,578,incongruent,7,8_1,
+95_small,"exp (25, 4-1.JPG)",right,n,right,C,804,incongruent,3,4_1,small pairs
+95_small,"exp (43, 6-3.JPG)",right,n,right,C,618,incongruent,3,6_3,
+95_small,"exp (10, 2-3.JPG)",left,b,left,C,628,congruent,1,2_3,small pairs
+95_small,"exp (22, 3-7.JPG)",left,b,left,C,616,congruent,4,3_7,
+95_small,"exp (23, 3-8.JPG)",left,b,left,C,486,congruent,5,3_8,
+95_small,"exp (26, 4-2.JPG)",right,n,right,C,533,incongruent,2,4_2,small pairs
+95_small,"exp (24, 3-9.JPG)",left,b,left,C,662,congruent,6,3_9,
+95_small,"exp (36, 5-4.JPG)",right,n,right,C,760,incongruent,1,5_4,
+95_small,"exp (13, 2-6.JPG)",left,b,left,C,483,congruent,4,2_6,
+95_small,"exp (68, 9-4.JPG)",right,n,right,C,472,incongruent,5,9_4,
+95_small,"exp (62, 8-6.JPG)",right,n,right,C,869,incongruent,2,8_6,large pairs
+95_small,"exp (38, 5-7.JPG)",left,b,left,C,560,congruent,2,5_7,
+95_small,"exp (9, 2-1.JPG)",right,n,right,C,694,incongruent,1,2_1,small pairs
+95_small,"exp (36, 5-4.JPG)",right,n,right,C,773,incongruent,1,5_4,
+95_small,"exp (12, 2-5.JPG)",left,b,left,C,690,congruent,3,2_5,
+95_small,"exp (35, 5-3.JPG)",right,n,right,C,612,incongruent,2,5_3,
+95_small,"exp (26, 4-2.JPG)",right,n,right,C,538,incongruent,2,4_2,small pairs
+95_small,"exp (6, 1-7.JPG)",left,b,left,C,434,congruent,6,1_7,
+95_small,"exp (65, 9-1.JPG)",right,n,right,C,440,incongruent,8,9_1,
+95_small,"exp (18, 3-2.JPG)",right,n,right,C,602,incongruent,1,3_2,small pairs
+95_small,"exp (41, 6-1.JPG)",right,n,right,C,552,incongruent,5,6_1,
+95_small,"exp (37, 5-6.JPG)",left,b,left,C,470,congruent,1,5_6,
+95_small,"exp (43, 6-3.JPG)",right,n,right,C,440,incongruent,3,6_3,
+95_small,"exp (61, 8-5.JPG)",right,n,right,C,842,incongruent,3,8_5,
+95_small,"exp (7, 1-8.JPG)",left,b,left,C,512,congruent,7,1_8,
+95_small,"exp (47, 6-8.JPG)",right,n,left,E,535,congruent,2,6_8,large pairs
+95_small,"exp (4, 1-5.JPG)",left,b,left,C,652,congruent,4,1_5,
+95_small,"exp (48, 6-9.JPG)",left,b,left,C,603,congruent,3,6_9,large pairs
+95_small,"exp (3, 1-4.JPG)",left,b,left,C,768,congruent,3,1_4,small pairs
+95_small,"exp (32, 4-9.JPG)",left,b,left,C,818,congruent,5,4_9,
+95_small,"exp (8, 1-9.JPG)",left,b,left,C,608,congruent,8,1_9,
+95_small,"exp (39, 5-8.JPG)",left,b,left,C,698,congruent,3,5_8,
+95_small,"exp (52, 7-4.JPG)",right,n,right,C,991,incongruent,3,7_4,
+95_small,"exp (23, 3-8.JPG)",left,b,left,C,568,congruent,5,3_8,
+95_small,"exp (16, 2-9.JPG)",left,b,left,C,488,congruent,7,2_9,
+95_small,"exp (17, 3-1.JPG)",right,n,right,C,860,incongruent,2,3_1,small pairs
+95_small,"exp (9, 2-1.JPG)",right,n,right,C,778,incongruent,1,2_1,small pairs
+95_small,"exp (70, 9-6.JPG)",right,n,right,C,648,incongruent,3,9_6,large pairs
+95_small,"exp (71, 9-7.JPG)",right,n,right,C,756,incongruent,2,9_7,large pairs
+95_small,"exp (55, 7-8.JPG)",left,b,left,C,862,congruent,1,7_8,large pairs
+95_small,"exp (5, 1-6.JPG)",left,b,left,C,610,congruent,5,1_6,
+95_small,"exp (11, 2-4.JPG)",left,b,left,C,604,congruent,2,2_4,small pairs
+95_small,"exp (1, 1-2.JPG)",left,b,left,C,498,congruent,1,1_2,small pairs
+95_small,"exp (51, 7-3.JPG)",right,n,right,C,486,incongruent,4,7_3,
+95_small,"exp (27, 4-3.JPG)",right,n,right,C,808,incongruent,1,4_3,small pairs
+95_small,"exp (20, 3-5.JPG)",left,b,left,C,699,congruent,2,3_5,
+95_small,"exp (2, 1-3.JPG)",left,b,left,C,850,congruent,2,1_3,small pairs
+95_small,"exp (28, 4-5.JPG)",left,b,left,C,577,congruent,1,4_5,
+95_small,"exp (38, 5-7.JPG)",left,b,left,C,571,congruent,2,5_7,
+95_small,"exp (57, 8-1.JPG)",right,n,right,C,800,incongruent,7,8_1,
+95_small,"exp (14, 2-7.JPG)",left,b,left,C,550,congruent,5,2_7,
+95_small,"exp (22, 3-7.JPG)",left,b,left,C,854,congruent,4,3_7,
+95_small,"exp (40, 5-9.JPG)",left,b,left,C,652,congruent,4,5_9,
+95_small,"exp (56, 7-9.JPG)",left,b,left,C,945,congruent,2,7_9,large pairs
+95_small,"exp (45, 6-5.JPG)",right,n,right,C,892,incongruent,1,6_5,
+95_small,"exp (25, 4-1.JPG)",right,n,right,C,772,incongruent,3,4_1,small pairs
+95_small,"exp (50, 7-2.JPG)",right,n,right,C,700,incongruent,5,7_2,
+95_small,"exp (13, 2-6.JPG)",left,b,left,C,702,congruent,4,2_6,
+95_small,"exp (53, 7-5.JPG)",right,n,right,C,990,incongruent,2,7_5,
+95_small,"exp (31, 4-8.JPG)",left,b,left,C,602,congruent,4,4_8,
+95_small,"exp (46, 6-7.JPG)",left,b,left,C,674,congruent,1,6_7,large pairs
+95_small,"exp (34, 5-2.JPG)",right,n,right,C,592,incongruent,3,5_2,
+95_small,"exp (62, 8-6.JPG)",right,n,right,C,690,incongruent,2,8_6,large pairs
+95_small,"exp (44, 6-4.JPG)",right,n,right,C,580,incongruent,2,6_4,
+95_small,"exp (54, 7-6.JPG)",right,n,right,C,922,incongruent,1,7_6,large pairs
+95_small,"exp (49, 7-1.JPG)",right,n,right,C,508,incongruent,6,7_1,
+95_small,"exp (21, 3-6.JPG)",left,b,left,C,628,congruent,3,3_6,
+95_small,"exp (58, 8-2.JPG)",right,n,right,C,487,incongruent,6,8_2,
+95_small,"exp (19, 3-4.JPG)",left,b,left,C,714,congruent,1,3_4,small pairs
+95_small,"exp (67, 9-3.JPG)",right,n,right,C,527,incongruent,6,9_3,
+95_small,"exp (42, 6-2.JPG)",right,n,right,C,592,incongruent,4,6_2,
+95_small,"exp (69, 9-5.JPG)",right,n,right,C,671,incongruent,4,9_5,
+95_small,"exp (66, 9-2.JPG)",right,n,right,C,505,incongruent,7,9_2,
+95_small,"exp (68, 9-4.JPG)",right,n,right,C,648,incongruent,5,9_4,
+95_small,"exp (33, 5-1.JPG)",right,n,right,C,666,incongruent,4,5_1,
+95_small,"exp (64, 8-9.JPG)",left,b,left,C,578,congruent,1,8_9,large pairs
+95_small,"exp (30, 4-7.JPG)",left,b,left,C,552,congruent,3,4_7,
+95_small,"exp (59, 8-3.JPG)",right,n,right,C,594,incongruent,5,8_3,
+95_small,"exp (63, 8-7.JPG)",right,n,right,C,613,incongruent,1,8_7,large pairs
+95_small,"exp (60, 8-4.JPG)",right,n,right,C,576,incongruent,4,8_4,
+95_small,"exp (10, 2-3.JPG)",left,b,left,C,703,congruent,1,2_3,small pairs
+95_small,"exp (24, 3-9.JPG)",left,b,left,C,644,congruent,6,3_9,
+95_small,"exp (15, 2-8.JPG)",left,b,left,C,611,congruent,6,2_8,
+95_small,"exp (72, 9-8.JPG)",right,n,right,C,604,incongruent,1,9_8,large pairs
+95_small,"exp (29, 4-6.JPG)",left,b,left,C,484,congruent,2,4_6,
+95_small,"exp (45, 6-5.JPG)",right,n,right,C,905,incongruent,1,6_5,
+95_small,"exp (5, 1-6.JPG)",left,b,left,C,488,congruent,5,1_6,
+95_small,"exp (29, 4-6.JPG)",left,b,left,C,600,congruent,2,4_6,
+95_small,"exp (52, 7-4.JPG)",right,n,right,C,514,incongruent,3,7_4,
+95_small,"exp (69, 9-5.JPG)",right,n,right,C,526,incongruent,4,9_5,
+95_small,"exp (67, 9-3.JPG)",right,n,right,C,536,incongruent,6,9_3,
+95_small,"exp (3, 1-4.JPG)",left,b,left,C,493,congruent,3,1_4,small pairs
+95_small,"exp (13, 2-6.JPG)",left,b,left,C,452,congruent,4,2_6,
+95_small,"exp (7, 1-8.JPG)",left,b,left,C,356,congruent,7,1_8,
+95_small,"exp (49, 7-1.JPG)",right,n,right,C,502,incongruent,6,7_1,
+95_small,"exp (70, 9-6.JPG)",right,n,right,C,678,incongruent,3,9_6,large pairs
+95_small,"exp (12, 2-5.JPG)",left,b,left,C,458,congruent,3,2_5,
+95_small,"exp (64, 8-9.JPG)",left,b,left,C,591,congruent,1,8_9,large pairs
+95_small,"exp (48, 6-9.JPG)",left,b,left,C,554,congruent,3,6_9,large pairs
+95_small,"exp (35, 5-3.JPG)",right,n,right,C,854,incongruent,2,5_3,
+95_small,"exp (17, 3-1.JPG)",right,n,right,C,814,incongruent,2,3_1,small pairs
+95_small,"exp (55, 7-8.JPG)",left,b,left,C,562,congruent,1,7_8,large pairs
+95_small,"exp (21, 3-6.JPG)",left,b,left,C,524,congruent,3,3_6,
+95_small,"exp (62, 8-6.JPG)",right,n,right,C,615,incongruent,2,8_6,large pairs
+95_small,"exp (36, 5-4.JPG)",right,n,right,C,620,incongruent,1,5_4,
+95_small,"exp (59, 8-3.JPG)",right,n,right,C,500,incongruent,5,8_3,
+95_small,"exp (1, 1-2.JPG)",left,b,left,C,792,congruent,1,1_2,small pairs
+95_small,"exp (9, 2-1.JPG)",right,n,right,C,516,incongruent,1,2_1,small pairs
+95_small,"exp (43, 6-3.JPG)",right,n,right,C,561,incongruent,3,6_3,
+95_small,"exp (47, 6-8.JPG)",left,b,left,C,684,congruent,2,6_8,large pairs
+95_small,"exp (50, 7-2.JPG)",right,n,right,C,452,incongruent,5,7_2,
+95_small,"exp (8, 1-9.JPG)",left,b,left,C,464,congruent,8,1_9,
+95_small,"exp (68, 9-4.JPG)",right,n,right,C,416,incongruent,5,9_4,
+95_small,"exp (41, 6-1.JPG)",right,n,right,C,773,incongruent,5,6_1,
+95_small,"exp (25, 4-1.JPG)",right,n,right,C,516,incongruent,3,4_1,small pairs
+95_small,"exp (54, 7-6.JPG)",right,n,right,C,546,incongruent,1,7_6,large pairs
+95_small,"exp (63, 8-7.JPG)",right,n,right,C,705,incongruent,1,8_7,large pairs
+95_small,"exp (4, 1-5.JPG)",left,b,left,C,510,congruent,4,1_5,
+95_small,"exp (26, 4-2.JPG)",right,n,right,C,462,incongruent,2,4_2,small pairs
+95_small,"exp (60, 8-4.JPG)",right,n,right,C,823,incongruent,4,8_4,
+95_small,"exp (16, 2-9.JPG)",left,b,left,C,552,congruent,7,2_9,
+95_small,"exp (2, 1-3.JPG)",left,b,left,C,587,congruent,2,1_3,small pairs
+95_small,"exp (30, 4-7.JPG)",left,b,left,C,536,congruent,3,4_7,
+95_small,"exp (44, 6-4.JPG)",right,n,right,C,515,incongruent,2,6_4,
+95_small,"exp (71, 9-7.JPG)",right,n,right,C,720,incongruent,2,9_7,large pairs
+95_small,"exp (58, 8-2.JPG)",right,n,right,C,496,incongruent,6,8_2,
+95_small,"exp (14, 2-7.JPG)",left,b,left,C,502,congruent,5,2_7,
+95_small,"exp (19, 3-4.JPG)",left,b,left,C,672,congruent,1,3_4,small pairs
+95_small,"exp (6, 1-7.JPG)",left,b,left,C,508,congruent,6,1_7,
+95_small,"exp (27, 4-3.JPG)",right,n,right,C,606,incongruent,1,4_3,small pairs
+95_small,"exp (20, 3-5.JPG)",left,b,left,C,396,congruent,2,3_5,
+95_small,"exp (33, 5-1.JPG)",right,n,right,C,436,incongruent,4,5_1,
+95_small,"exp (31, 4-8.JPG)",left,b,left,C,468,congruent,4,4_8,
+95_small,"exp (38, 5-7.JPG)",left,b,left,C,530,congruent,2,5_7,
+95_small,"exp (28, 4-5.JPG)",left,b,left,C,494,congruent,1,4_5,
+95_small,"exp (10, 2-3.JPG)",left,b,left,C,546,congruent,1,2_3,small pairs
+95_small,"exp (15, 2-8.JPG)",left,b,left,C,442,congruent,6,2_8,
+95_small,"exp (56, 7-9.JPG)",left,b,left,C,718,congruent,2,7_9,large pairs
+95_small,"exp (18, 3-2.JPG)",right,n,right,C,826,incongruent,1,3_2,small pairs
+95_small,"exp (40, 5-9.JPG)",left,b,left,C,827,congruent,4,5_9,
+95_small,"exp (22, 3-7.JPG)",left,b,left,C,538,congruent,4,3_7,
+95_small,"exp (61, 8-5.JPG)",right,n,right,C,496,incongruent,3,8_5,
+95_small,"exp (24, 3-9.JPG)",left,b,left,C,472,congruent,6,3_9,
+95_small,"exp (32, 4-9.JPG)",left,b,left,C,666,congruent,5,4_9,
+95_small,"exp (51, 7-3.JPG)",right,n,right,C,578,incongruent,4,7_3,
+95_small,"exp (34, 5-2.JPG)",right,n,right,C,523,incongruent,3,5_2,
+95_small,"exp (11, 2-4.JPG)",left,b,left,C,540,congruent,2,2_4,small pairs
+95_small,"exp (39, 5-8.JPG)",left,b,left,C,522,congruent,3,5_8,
+95_small,"exp (72, 9-8.JPG)",right,n,right,C,1008,incongruent,1,9_8,large pairs
+95_small,"exp (66, 9-2.JPG)",right,n,right,C,522,incongruent,7,9_2,
+95_small,"exp (53, 7-5.JPG)",left,b,right,E,466,incongruent,2,7_5,
+95_small,"exp (65, 9-1.JPG)",right,n,right,C,520,incongruent,8,9_1,
+95_small,"exp (37, 5-6.JPG)",left,b,left,C,1496,congruent,1,5_6,
+95_small,"exp (42, 6-2.JPG)",right,n,right,C,704,incongruent,4,6_2,
+95_small,"exp (57, 8-1.JPG)",right,n,right,C,607,incongruent,7,8_1,
+95_small,"exp (46, 6-7.JPG)",left,b,left,C,960,congruent,1,6_7,large pairs
+95_small,"exp (23, 3-8.JPG)",left,b,left,C,582,congruent,5,3_8,
+95_small,"exp (66, 9-2.JPG)",right,n,right,C,657,incongruent,7,9_2,
+95_small,"exp (44, 6-4.JPG)",right,n,right,C,1360,incongruent,2,6_4,
+95_small,"exp (29, 4-6.JPG)",left,b,left,C,606,congruent,2,4_6,
+95_small,"exp (35, 5-3.JPG)",right,n,right,C,1006,incongruent,2,5_3,
+95_small,"exp (18, 3-2.JPG)",right,n,right,C,658,incongruent,1,3_2,small pairs
+95_small,"exp (54, 7-6.JPG)",right,n,right,C,689,incongruent,1,7_6,large pairs
+95_small,"exp (48, 6-9.JPG)",left,b,left,C,684,congruent,3,6_9,large pairs
+95_small,"exp (39, 5-8.JPG)",left,b,left,C,514,congruent,3,5_8,
+95_small,"exp (6, 1-7.JPG)",left,b,left,C,524,congruent,6,1_7,
+95_small,"exp (43, 6-3.JPG)",right,n,right,C,616,incongruent,3,6_3,
+95_small,"exp (51, 7-3.JPG)",right,n,right,C,544,incongruent,4,7_3,
+95_small,"exp (12, 2-5.JPG)",left,b,left,C,540,congruent,3,2_5,
+95_small,"exp (71, 9-7.JPG)",right,n,right,C,606,incongruent,2,9_7,large pairs
+95_small,"exp (46, 6-7.JPG)",left,b,left,C,832,congruent,1,6_7,large pairs
+95_small,"exp (72, 9-8.JPG)",right,n,right,C,1420,incongruent,1,9_8,large pairs
+95_small,"exp (23, 3-8.JPG)",left,b,left,C,568,congruent,5,3_8,
+95_small,"exp (20, 3-5.JPG)",left,b,left,C,564,congruent,2,3_5,
+95_small,"exp (34, 5-2.JPG)",right,n,right,C,562,incongruent,3,5_2,
+95_small,"exp (25, 4-1.JPG)",right,n,right,C,746,incongruent,3,4_1,small pairs
+95_small,"exp (63, 8-7.JPG)",right,n,right,C,791,incongruent,1,8_7,large pairs
+95_small,"exp (10, 2-3.JPG)",left,b,left,C,505,congruent,1,2_3,small pairs
+95_small,"exp (55, 7-8.JPG)",left,b,left,C,874,congruent,1,7_8,large pairs
+95_small,"exp (50, 7-2.JPG)",right,n,right,C,666,incongruent,5,7_2,
+95_small,"exp (24, 3-9.JPG)",left,b,left,C,630,congruent,6,3_9,
+95_small,"exp (40, 5-9.JPG)",left,b,left,C,659,congruent,4,5_9,
+95_small,"exp (42, 6-2.JPG)",right,n,right,C,564,incongruent,4,6_2,
+95_small,"exp (26, 4-2.JPG)",right,n,right,C,586,incongruent,2,4_2,small pairs
+95_small,"exp (13, 2-6.JPG)",left,b,left,C,516,congruent,4,2_6,
+95_small,"exp (49, 7-1.JPG)",right,n,right,C,552,incongruent,6,7_1,
+95_small,"exp (16, 2-9.JPG)",left,b,left,C,423,congruent,7,2_9,
+95_small,"exp (68, 9-4.JPG)",right,n,right,C,794,incongruent,5,9_4,
+95_small,"exp (31, 4-8.JPG)",left,b,left,C,492,congruent,4,4_8,
+95_small,"exp (14, 2-7.JPG)",left,b,left,C,632,congruent,5,2_7,
+95_small,"exp (27, 4-3.JPG)",right,n,right,C,628,incongruent,1,4_3,small pairs
+95_small,"exp (38, 5-7.JPG)",left,b,left,C,590,congruent,2,5_7,
+95_small,"exp (37, 5-6.JPG)",left,b,left,C,868,congruent,1,5_6,
+95_small,"exp (3, 1-4.JPG)",left,b,left,C,528,congruent,3,1_4,small pairs
+95_small,"exp (7, 1-8.JPG)",left,b,left,C,536,congruent,7,1_8,
+95_small,"exp (65, 9-1.JPG)",right,n,right,C,1052,incongruent,8,9_1,
+95_small,"exp (19, 3-4.JPG)",left,b,left,C,1060,congruent,1,3_4,small pairs
+95_small,"exp (60, 8-4.JPG)",right,n,right,C,986,incongruent,4,8_4,
+95_small,"exp (58, 8-2.JPG)",right,n,right,C,850,incongruent,6,8_2,
+95_small,"exp (21, 3-6.JPG)",left,b,left,C,848,congruent,3,3_6,
+95_small,"exp (47, 6-8.JPG)",left,b,left,C,726,congruent,2,6_8,large pairs
+95_small,"exp (2, 1-3.JPG)",left,b,left,C,855,congruent,2,1_3,small pairs
+95_small,"exp (32, 4-9.JPG)",left,b,left,C,736,congruent,5,4_9,
+95_small,"exp (33, 5-1.JPG)",right,n,right,C,646,incongruent,4,5_1,
+95_small,"exp (57, 8-1.JPG)",right,n,right,C,532,incongruent,7,8_1,
+95_small,"exp (5, 1-6.JPG)",left,b,left,C,426,congruent,5,1_6,
+95_small,"exp (36, 5-4.JPG)",right,n,right,C,950,incongruent,1,5_4,
+95_small,"exp (11, 2-4.JPG)",left,b,left,C,514,congruent,2,2_4,small pairs
+95_small,"exp (62, 8-6.JPG)",right,n,right,C,682,incongruent,2,8_6,large pairs
+95_small,"exp (67, 9-3.JPG)",right,n,right,C,700,incongruent,6,9_3,
+95_small,"exp (22, 3-7.JPG)",left,b,left,C,664,congruent,4,3_7,
+95_small,"exp (56, 7-9.JPG)",left,b,left,C,1102,congruent,2,7_9,large pairs
+95_small,"exp (17, 3-1.JPG)",right,n,right,C,500,incongruent,2,3_1,small pairs
+95_small,"exp (28, 4-5.JPG)",left,b,left,C,865,congruent,1,4_5,
+95_small,"exp (4, 1-5.JPG)",left,b,left,C,598,congruent,4,1_5,
+95_small,"exp (61, 8-5.JPG)",right,n,right,C,956,incongruent,3,8_5,
+95_small,"exp (59, 8-3.JPG)",right,n,right,C,653,incongruent,5,8_3,
+95_small,"exp (64, 8-9.JPG)",left,b,left,C,1318,congruent,1,8_9,large pairs
+95_small,"exp (9, 2-1.JPG)",right,n,right,C,692,incongruent,1,2_1,small pairs
+95_small,"exp (30, 4-7.JPG)",left,b,left,C,798,congruent,3,4_7,
+95_small,"exp (52, 7-4.JPG)",right,n,right,C,778,incongruent,3,7_4,
+95_small,"exp (41, 6-1.JPG)",right,n,right,C,640,incongruent,5,6_1,
+95_small,"exp (53, 7-5.JPG)",right,n,right,C,991,incongruent,2,7_5,
+95_small,"exp (70, 9-6.JPG)",right,n,right,C,650,incongruent,3,9_6,large pairs
+95_small,"exp (15, 2-8.JPG)",left,b,left,C,568,congruent,6,2_8,
+95_small,"exp (8, 1-9.JPG)",left,b,left,C,532,congruent,8,1_9,
+95_small,"exp (45, 6-5.JPG)",right,n,right,C,948,incongruent,1,6_5,
+95_small,"exp (1, 1-2.JPG)",left,b,left,C,582,congruent,1,1_2,small pairs
+95_small,"exp (69, 9-5.JPG)",right,n,right,C,582,incongruent,4,9_5,
+95_small,"exp (55, 7-8.JPG)",left,b,left,C,879,congruent,1,7_8,large pairs
+95_small,"exp (38, 5-7.JPG)",left,b,left,C,652,congruent,2,5_7,
+95_small,"exp (12, 2-5.JPG)",left,b,left,C,1049,congruent,3,2_5,
+95_small,"exp (50, 7-2.JPG)",right,n,right,C,562,incongruent,5,7_2,
+95_small,"exp (21, 3-6.JPG)",left,b,left,C,786,congruent,3,3_6,
+95_small,"exp (56, 7-9.JPG)",left,b,left,C,1392,congruent,2,7_9,large pairs
+95_small,"exp (51, 7-3.JPG)",right,n,right,C,759,incongruent,4,7_3,
+95_small,"exp (52, 7-4.JPG)",right,n,right,C,1036,incongruent,3,7_4,
+95_small,"exp (4, 1-5.JPG)",left,b,left,C,712,congruent,4,1_5,
+95_small,"exp (42, 6-2.JPG)",right,n,right,C,656,incongruent,4,6_2,
+95_small,"exp (33, 5-1.JPG)",right,n,right,C,776,incongruent,4,5_1,
+95_small,"exp (6, 1-7.JPG)",left,b,left,C,680,congruent,6,1_7,
+95_small,"exp (26, 4-2.JPG)",right,n,right,C,708,incongruent,2,4_2,small pairs
+95_small,"exp (8, 1-9.JPG)",left,b,left,C,496,congruent,8,1_9,
+95_small,"exp (64, 8-9.JPG)",left,b,left,C,1570,congruent,1,8_9,large pairs
+95_small,"exp (53, 7-5.JPG)",right,n,right,C,1044,incongruent,2,7_5,
+95_small,"exp (69, 9-5.JPG)",right,n,right,C,688,incongruent,4,9_5,
+95_small,"exp (32, 4-9.JPG)",left,b,left,C,618,congruent,5,4_9,
+95_small,"exp (7, 1-8.JPG)",left,b,left,C,960,congruent,7,1_8,
+95_small,"exp (44, 6-4.JPG)",right,n,right,C,984,incongruent,2,6_4,
+95_small,"exp (20, 3-5.JPG)",left,b,left,C,618,congruent,2,3_5,
+95_small,"exp (30, 4-7.JPG)",left,b,left,C,698,congruent,3,4_7,
+95_small,"exp (47, 6-8.JPG)",left,b,left,C,672,congruent,2,6_8,large pairs
+95_small,"exp (2, 1-3.JPG)",left,b,left,C,686,congruent,2,1_3,small pairs
+95_small,"exp (67, 9-3.JPG)",right,n,right,C,664,incongruent,6,9_3,
+95_small,"exp (65, 9-1.JPG)",right,n,right,C,890,incongruent,8,9_1,
+95_small,"exp (70, 9-6.JPG)",right,n,right,C,808,incongruent,3,9_6,large pairs
+95_small,"exp (34, 5-2.JPG)",right,n,right,C,818,incongruent,3,5_2,
+95_small,"exp (68, 9-4.JPG)",right,n,right,C,712,incongruent,5,9_4,
+95_small,"exp (27, 4-3.JPG)",right,n,right,C,634,incongruent,1,4_3,small pairs
+95_small,"exp (40, 5-9.JPG)",left,b,left,C,924,congruent,4,5_9,
+95_small,"exp (22, 3-7.JPG)",left,b,left,C,944,congruent,4,3_7,
+95_small,"exp (11, 2-4.JPG)",left,b,left,C,1034,congruent,2,2_4,small pairs
+95_small,"exp (16, 2-9.JPG)",left,b,left,C,516,congruent,7,2_9,
+95_small,"exp (25, 4-1.JPG)",right,n,right,C,942,incongruent,3,4_1,small pairs
+95_small,"exp (58, 8-2.JPG)",right,n,right,C,708,incongruent,6,8_2,
+95_small,"exp (39, 5-8.JPG)",left,b,left,C,842,congruent,3,5_8,
+95_small,"exp (3, 1-4.JPG)",left,b,left,C,824,congruent,3,1_4,small pairs
+95_small,"exp (45, 6-5.JPG)",left,b,right,E,744,incongruent,1,6_5,
+95_small,"exp (66, 9-2.JPG)",right,n,right,C,1172,incongruent,7,9_2,
+95_small,"exp (24, 3-9.JPG)",left,b,left,C,1395,congruent,6,3_9,
+95_small,"exp (63, 8-7.JPG)",right,n,right,C,1134,incongruent,1,8_7,large pairs
+95_small,"exp (9, 2-1.JPG)",right,n,right,C,701,incongruent,1,2_1,small pairs
+95_small,"exp (46, 6-7.JPG)",left,b,left,C,961,congruent,1,6_7,large pairs
+95_small,"exp (14, 2-7.JPG)",left,b,left,C,586,congruent,5,2_7,
+95_small,"exp (18, 3-2.JPG)",right,n,right,C,774,incongruent,1,3_2,small pairs
+95_small,"exp (54, 7-6.JPG)",right,n,right,C,888,incongruent,1,7_6,large pairs
+95_small,"exp (23, 3-8.JPG)",left,b,left,C,777,congruent,5,3_8,
+95_small,"exp (59, 8-3.JPG)",right,n,right,C,626,incongruent,5,8_3,
+95_small,"exp (5, 1-6.JPG)",left,b,left,C,582,congruent,5,1_6,
+95_small,"exp (43, 6-3.JPG)",right,n,right,C,570,incongruent,3,6_3,
+95_small,"exp (1, 1-2.JPG)",left,b,left,C,1488,congruent,1,1_2,small pairs
+95_small,"exp (61, 8-5.JPG)",right,n,right,C,514,incongruent,3,8_5,
+95_small,"exp (13, 2-6.JPG)",left,b,left,C,702,congruent,4,2_6,
+95_small,"exp (62, 8-6.JPG)",right,n,right,C,926,incongruent,2,8_6,large pairs
+95_small,"exp (29, 4-6.JPG)",left,b,left,C,774,congruent,2,4_6,
+95_small,"exp (10, 2-3.JPG)",left,b,left,C,692,congruent,1,2_3,small pairs
+95_small,"exp (60, 8-4.JPG)",right,n,right,C,736,incongruent,4,8_4,
+95_small,"exp (48, 6-9.JPG)",left,b,left,C,648,congruent,3,6_9,large pairs
+95_small,"exp (57, 8-1.JPG)",right,n,right,C,624,incongruent,7,8_1,
+95_small,"exp (28, 4-5.JPG)",left,b,left,C,496,congruent,1,4_5,
+95_small,"exp (35, 5-3.JPG)",right,n,right,C,624,incongruent,2,5_3,
+95_small,"exp (17, 3-1.JPG)",right,n,right,C,532,incongruent,2,3_1,small pairs
+95_small,"exp (49, 7-1.JPG)",right,n,right,C,474,incongruent,6,7_1,
+95_small,"exp (31, 4-8.JPG)",left,b,left,C,699,congruent,4,4_8,
+95_small,"exp (15, 2-8.JPG)",left,b,left,C,498,congruent,6,2_8,
+95_small,"exp (41, 6-1.JPG)",right,n,right,C,492,incongruent,5,6_1,
+95_small,"exp (71, 9-7.JPG)",right,n,right,C,868,incongruent,2,9_7,large pairs
+95_small,"exp (19, 3-4.JPG)",left,b,left,C,471,congruent,1,3_4,small pairs
+95_small,"exp (72, 9-8.JPG)",right,n,right,C,990,incongruent,1,9_8,large pairs
+95_small,"exp (37, 5-6.JPG)",left,b,left,C,578,congruent,1,5_6,
+95_small,"exp (36, 5-4.JPG)",right,n,right,C,638,incongruent,1,5_4,
